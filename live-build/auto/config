@@ -649,7 +649,7 @@ case $PROJECT in
 
 	ubuntu-cpc)
 		COMPONENTS='main universe'
-		add_package live fwts fwts-efi-runtime-dkms fwts-frontend dialog
+		add_package live fwts fwts-frontend
 		if [ "${SUBPROJECT:-}" = minimized ]; then
 			add_task install cloud-image
 			add_package install sudo
@@ -668,7 +668,7 @@ case $PROJECT in
 				KERNEL_FLAVOURS=virtual
 			fi
 		else
-			add_task install minimal standard cloud-image
+			add_task install minimal
 			add_package install ubuntu-minimal
 			KERNEL_FLAVOURS=virtual
 		        case $ARCH in

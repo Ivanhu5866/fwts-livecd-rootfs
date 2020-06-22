@@ -13,7 +13,7 @@ _xchroot() {
    fi
 }
 
-_xchroot "${rootd}" apt -y purge libicu60 g++ g++-7 libstdc++-7-dev \
+_xchroot "${rootd}" apt -y purge g++ g++-7 libstdc++-7-dev \
  build-essential libc6-dev linux-libc-dev dirmngr fakeroot isc-dhcp-client \
  isc-dhcp-common logrotate manpages python3 rsyslog 
 _xchroot "${rootd}" apt -y autoremove

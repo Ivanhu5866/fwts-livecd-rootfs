@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends: debhelper (>= 7)
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Standards-Version: 3.9.6
-Vcs-Git: https://git.launchpad.net/livecd-rootfs -b ubuntu/jammy
+Vcs-Git: https://git.launchpad.net/livecd-rootfs -b ubuntu/focal
 
 Package: livecd-rootfs
 Architecture: any

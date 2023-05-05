@@ -1122,7 +1122,7 @@ case $PROJECT in
 	ubuntu-cpc)
 		KERNEL_FLAVOURS=virtual
 		COMPONENTS='main universe'
-		add_package live fwts fwts-frontend dmidecode
+		add_package live fwts fwts-frontend dmidecode squashfs-tools snapd
 		if [ "${SUBPROJECT:-}" = minimized ]; then
 		    # For minimized images we do not want to install any recommended packages.
 		    # We can do this by setting APT::Install-Recommends to false in apt config

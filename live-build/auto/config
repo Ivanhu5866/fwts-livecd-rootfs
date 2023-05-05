@@ -1132,7 +1132,7 @@ case $PROJECT in
 		    APT_OPTIONS="${APT_OPTIONS:+$APT_OPTIONS }--no-install-recommends"
 			add_package install ubuntu-cloud-minimal
 		else
-			add_task install minimal standard cloud-image
+			add_task install minimal standard
 			add_package install ubuntu-minimal
 		        case $ARCH in
 				armhf|arm64|ppc64el|powerpc)
